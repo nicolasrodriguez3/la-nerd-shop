@@ -1,0 +1,61 @@
+@import "./variables";
+
+.header-container {
+	background-color: transparent;
+	position: fixed;
+	top: 30px;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+}
+.header {
+	background-color: $white-color-30;
+	border-radius: 23px;
+	height: 46px;
+	padding: 0 20px;
+	box-shadow: $shadow;
+	width: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+
+	.header-logo img{
+		filter: drop-shadow($shadow);
+	}
+
+	.header-search {
+		flex-grow: 2;
+	}
+	#header-search-input {
+		border: none;
+		background-color: transparent;
+		padding: 5px 10px;
+		width: 100%;
+		font-size: 16px;
+		text-overflow: ellipsis;
+		color: $white-color;
+	}
+
+	nav {
+		display: flex;
+		align-items: center;
+		text-align: center;
+		gap: Max(32px, 1vw);
+
+		a {
+			text-decoration: none;
+			color: $white-color;
+			font-family: $primary-light-font;
+			font-size: 18px;
+			text-shadow: $shadow;
+			line-height: 1.2;
+
+			&.active {
+				font-family: $primary-bold-font;
+			}
+		}
+	}
+}
