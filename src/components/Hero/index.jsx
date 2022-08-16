@@ -1,13 +1,12 @@
-import "../styles/Hero.scss"
-import logoBig from "../assets/img/logo-big.svg"
-import { socialNetworks } from "../social-networks"
+import logoBig from "../../assets/img/logo-big.svg"
+import { socialNetworks } from "../../social-networks"
 import { Link } from "react-router-dom"
-import { ReactComponent as ArrowIcon } from "../assets/img/arrow-down.svg"
+import { ReactComponent as ArrowIcon } from "../../assets/img/arrow-down.svg"
+import { ReactComponent as HelpIcon } from "../../assets/img/online-support-icon.svg"
 
 export default function Hero() {
 	return (
 		<div className="hero-container">
-			Hero
 			<div className="hero-logo">
 				<img src={logoBig} alt="logo" />
 			</div>
@@ -21,8 +20,12 @@ export default function Hero() {
 			</div>
 				<Link to="#" className="shop-now">
 					<span>Shop now</span>
-				<ArrowIcon className="shop-now-icon" />
+					<ArrowIcon className="shop-now-icon" />
 				</Link>
+				<div className="need-help">
+					<HelpIcon />
+					<span>¿Necesitas ayuda?</span>
+				</div>
 		</div>
 	)
 }

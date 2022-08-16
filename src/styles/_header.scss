@@ -28,9 +28,15 @@
 
 	.header-search {
 		flex-grow: 2;
+		
+
+		label{
+			display: flex;
+		}
 	}
 	#header-search-input {
 		border: none;
+		outline: none;
 		background-color: transparent;
 		padding: 5px 10px;
 		width: 100%;
@@ -57,5 +63,10 @@
 				font-family: $primary-bold-font;
 			}
 		}
+	}
+
+	.header-icons{
+		display: flex;
+		align-items: center;
 	}
 }
