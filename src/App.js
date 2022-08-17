@@ -1,17 +1,16 @@
-import Header from './components/Header';
-import Hero from './components/Hero';
-import './styles/App.scss';
+import Header from "./components/Header"
+import Hero from "./components/Hero"
+import SectionTitle from "./components/SectionTitle"
+import "./styles/App.scss"
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <p>prueba prueba
-      Helvlight Regular
-      </p>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Header />
+			<Hero />
+			<SectionTitle>HOLA</SectionTitle>
+		</div>
+	)
 }
 
-export default App;
+export default App

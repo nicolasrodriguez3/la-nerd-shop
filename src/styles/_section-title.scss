@@ -1,0 +1,26 @@
+.section-title{
+	padding: 5px 10px 5px calc(30px + 5vw);
+	width: max-content;
+	position: relative;
+	margin-bottom: 16px;
+	font-size: 32px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: $shadow;
+}
+
+.underline{
+	position: absolute;
+	height: 16px;
+	right: 0;
+	left: 0;
+	background-color: rgba(217, 217, 217, 0.3);
+	div{
+		position: absolute;
+		left: -20px;
+		right: 50%;
+		height: 100%;
+		background-color: rgba(255, 255, 255, 0.3);
+		transform: skewX(-25deg);
+	}
+}

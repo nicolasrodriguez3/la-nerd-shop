@@ -7,15 +7,20 @@
 }
 .hero-logo{
 	position: absolute;
-	top: 150px;
+	top: calc(65px + 15vh);
 	left: 15px;
+
+	img{
+		max-width: 100%;
+	}
 }
 .slogan{
 	position: absolute;
-	bottom: 150px;
+	bottom: calc( 30vh - 50px);
 	left: 40px;
+	margin-right: 20px;
 	font-size: 20px;
-	width: 50%;
+	max-width: 500px;
 }
 .social-icons{
 	display: flex;
@@ -27,6 +32,10 @@
 	top: 50%;
 	right: 30px;
 	transform: translateY(-50%);
+
+	img{
+		filter: drop-shadow($shadow);
+	}
 }
 .shop-now{
 	position: absolute;
