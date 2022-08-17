@@ -10,7 +10,8 @@
 	display: flex;
 	justify-content: center;
 }
-.header {
+.header {	
+	backdrop-filter: blur(3.5px);
 	background-color: $white-color-30;
 	border-radius: 23px;
 	height: 46px;
@@ -44,6 +45,9 @@
 		text-overflow: ellipsis;
 		color: $white-color;
 	}
+	#header-search-input::placeholder {
+		color: $white-color-30;
+	}
 
 	nav {
 		display: flex;
@@ -57,7 +61,6 @@
 			font-family: $primary-light-font;
 			font-size: 18px;
 			text-shadow: $shadow;
-			line-height: 1.2;
 
 			&.active {
 				font-family: $primary-bold-font;
@@ -68,5 +71,12 @@
 	.header-icons{
 		display: flex;
 		align-items: center;
+
+		a{
+			height: 46px;
+			svg{
+				filter: drop-shadow($shadow);
+			}
+		}
 	}
 }

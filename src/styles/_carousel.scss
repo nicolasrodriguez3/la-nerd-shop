@@ -48,6 +48,8 @@ $carousel-item-width: $carousel-item-height !default;
   transform-origin: 0% 50%;
 
   .carousel-item {
+    border: 5px solid #fff;
+
     visibility: hidden;
     width: $carousel-item-width;
     height: $carousel-item-height;
@@ -57,6 +59,8 @@ $carousel-item-width: $carousel-item-height !default;
 
     & > img {
       width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 
