@@ -3,9 +3,14 @@
 @import "hero";
 @import "section-title";
 @import "carousel";
+@import "medias";
 
 body {
 	background-color: #111;
 	color: $white-color;
 	font-family: $primary-font;
+}
+
+.only-desktop{
+	display: none;
 }

@@ -10,7 +10,9 @@ export default function Hero() {
 			<div className="hero-logo">
 				<img src={logoBig} alt="logo" />
 			</div>
-			<p className="slogan">Acá iría el slogan de la marca. Algún texto simple, de no más de dos renglones.</p>
+			<p className="slogan">
+				La tecnología que siempre <br />has querido.
+			</p>
 			<div className="social-icons">
 				{socialNetworks.map(el => (
 					<a href={el.url} key={el.name} title={el.name}>

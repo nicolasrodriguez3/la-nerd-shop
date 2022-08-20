@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+	nav.desktop{
+		display: flex;
+		align-items: center;
+		text-align: center;
+		gap: Max(32px, 1vw);
+
+		a {
+			text-decoration: none;
+			color: $white-color;
+			font-family: $primary-light-font;
+			font-size: 18px;
+			text-shadow: $shadow;
+
+			&.active {
+				font-family: $primary-bold-font;
+			}
+		}
+	}
+
+	.header {	
+		height: 46px;
+		padding: 0 18px;
+		width: 95%;
+	
+		.header-logo img{
+			width: 80px;
+		}
+	}
+}
