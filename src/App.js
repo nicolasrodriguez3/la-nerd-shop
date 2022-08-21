@@ -1,17 +1,21 @@
-import Carousel from "./components/Carousel"
+import { Route, Routes } from "react-router-dom"
+
+// Components
 import Header from "./components/Header"
-import Hero from "./components/Hero"
-import SectionTitle from "./components/SectionTitle"
+import Home from "./views/Home"
+import Products from "./components/Products"
+
 import "./styles/App.scss"
 
 function App() {
 	return (
-		<div className="App">
+		<>
 			<Header />
-			<Hero />
-			<SectionTitle>HOLA</SectionTitle>
-			<Carousel />
-		</div>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/products" element={<Products />} />
+			</Routes>
+		</>
 	)
 }
 

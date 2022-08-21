@@ -35,7 +35,7 @@ export default function Header() {
 						SHOP
 					</Link>
 					<Link to="#">CONOCENOS</Link>
-					<Link to="#">CONTACTO</Link>
+					<a href="#contact">CONTACTO</a>
 				</nav>
 				<div className="header-icons">
 					<Link to="#">
