@@ -7,8 +7,10 @@ export default function Home() {
 	return (
 		<div>
 			<Hero />
-			<SectionTitle>HOLA</SectionTitle>
-			<Carousel />
+			<section className="carousel-section">
+				<SectionTitle>CONOCÉ NUESTRAS OFERTAS</SectionTitle>
+				<Carousel />
+			</section>
 			<Contact />
 		</div>
 	);
