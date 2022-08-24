@@ -8,7 +8,7 @@ export default function Home() {
 		<div>
 			<Hero />
 			<section className="carousel-section">
-				<SectionTitle>CONOCÉ NUESTRAS OFERTAS</SectionTitle>
+				<SectionTitle>NUESTRAS OFERTAS</SectionTitle>
 				<Carousel />
 			</section>
 			<Contact />
