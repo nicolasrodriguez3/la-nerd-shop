@@ -72,10 +72,7 @@ function Contact() {
                             </a>
                         ))}
                     </div>
-                    <div className="need-help-contact">
-                        <HelpIcon />
-                        <span>¿Necesitas ayuda?</span>
-                    </div>
+                   
                 </div>
                 <p className='developed'>DESARROLLADO POR 'NICO & VALE' 😄</p>
 
@@ -85,3 +82,10 @@ function Contact() {
 }
 
 export default Contact
+
+/*
+ <div className="need-help-contact">
+                        <HelpIcon />
+                        <span>¿Necesitas ayuda?</span>
+                    </div>
+                    */
