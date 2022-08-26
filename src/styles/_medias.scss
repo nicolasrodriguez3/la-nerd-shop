@@ -43,11 +43,20 @@
 	}
 
 	// ABOUT US
-	.about-us-container {
+	.about-us{
+		grid-template-columns: 1.2fr .8fr;
+		padding: 3rem calc(30px + 5vw);
+		gap: 1rem 2.5rem;
+		align-items: center;
+
 		.about-us-logo {
-			width: fit-content;
-			left: calc(40px + 1vw);
-			transform: none;
+			img {
+				max-width: 300px;
+			}
+		}
+		
+		.owner{
+			grid-area: 1 / 2 / 3 / 3;
 		}
 	}
 }

@@ -50,7 +50,7 @@ export default function Header() {
 				</div>
 			</header>
 			<nav className={`mobile-menu ${isMenuOpen ? "open" : ""}`}>
-				<Link to="#" className="active">
+				<Link to="/shop" className="active">
 					SHOP
 				</Link>
 				<Link to="#">CONOCENOS</Link>
