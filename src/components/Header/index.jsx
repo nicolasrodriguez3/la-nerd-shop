@@ -31,11 +31,11 @@ export default function Header() {
 					</label>
 				</form>
 				<nav className="desktop">
-					<Link to="#" className="active">
+					<Link to="/shop" className="active">
 						SHOP
 					</Link>
 					<Link to="#">CONOCENOS</Link>
-					<a href="#contact">CONTACTO</a>
+					<Link to="#contact">CONTACTO</Link>
 				</nav>
 				<div className="header-icons">
 					<Link to="#">
@@ -56,7 +56,6 @@ export default function Header() {
 				<Link to="#">CONOCENOS</Link>
 				<Link to="#">CONTACTO</Link>
 			</nav>
-
 		</div>
 	)
 }

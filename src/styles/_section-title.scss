@@ -1,13 +1,15 @@
 .section-title{
+	margin: -20px;
 	position: relative;
 	left: 0;
 	padding: 5px 5px 5px calc(30px + 5vw);
-	width: max-content;
 	margin-bottom: 16px;
 	font-size: 32px;
+	font-size: clamp(1.2rem, 4vw, 2rem );
 	font-weight: 700;
 	text-transform: uppercase;
 	text-shadow: $shadow;
+	display: inline;
 }
 
 .underline{
