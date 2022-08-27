@@ -37,7 +37,7 @@ function Contact() {
                     </textarea>
                     <input
                         type="button"
-                        placeholder="ENVIAR"
+                        value="ENVIAR"
                         className='contact-first-section-button'
                     />
                 </form>

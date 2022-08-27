@@ -9,10 +9,7 @@ import Products from "./components/Products"
 function App() {
 	return (
 		<div className="App">
-			<Header />
-			<Hero />
-			<SectionTitle>HOLA</SectionTitle>
-			<Carousel />
+			
 			<Contact />
 			<Products />
 		</div>
@@ -20,3 +17,12 @@ function App() {
 }
 
 export default App
+
+/*
+
+<Header />
+			<Hero />
+			<SectionTitle>HOLA</SectionTitle>
+			<Carousel />
+
+			*/
