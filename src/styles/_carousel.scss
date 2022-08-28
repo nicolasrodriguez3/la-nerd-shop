@@ -1,5 +1,5 @@
-$carousel-height: 500px !default;
-$carousel-item-height: $carousel-height / 2 !default;
+$carousel-height: 400px !default;
+$carousel-item-height: $carousel-height * .80 ;
 $carousel-item-width: $carousel-item-height * 4 / 5 ;
 
 // Estilos de MATERIALIZE
@@ -49,8 +49,7 @@ $carousel-item-width: $carousel-item-height * 4 / 5 ;
 	transform-origin: 0% 50%;
 
 	.carousel-item {
-		border: 2px solid #fff;
-		border-radius: 15px;
+		border: 1px solid #fff;
 
 		visibility: hidden;
 		width: $carousel-item-width;
@@ -63,7 +62,6 @@ $carousel-item-width: $carousel-item-height * 4 / 5 ;
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
-			border-radius: 15px;
 		}
 	}
 
@@ -77,7 +75,7 @@ $carousel-item-width: $carousel-item-height * 4 / 5 ;
 		text-align: center;
 		left: 0;
 		right: 0;
-		bottom: 0;
+		bottom: -25px;
 		margin: 0;
 
 		.indicator-item {
@@ -108,4 +106,7 @@ $carousel-item-width: $carousel-item-height * 4 / 5 ;
 .carousel-section{
 	padding: 3rem 1rem;
 	background: linear-gradient(to bottom, #000, rgba(14, 6, 65, .68));
+}
+.carousel{
+	margin: 4vw 0;
 }
