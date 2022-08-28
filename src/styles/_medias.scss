@@ -1,3 +1,154 @@
+@media screen and (max-width: 767px) {
+	//--------contact first section ----------
+	.contact-container {
+		justify-content: center;
+		align-items: center;
+		padding-top: 0px;
+
+		background-size: 150%;
+		background-repeat: no-repeat;
+		top: 0;
+		width: 150%;
+		//position: relative;
+		left: -200px;
+
+		height: 903px;
+	}
+
+	.contact-first-section {
+		justify-content: center;
+		align-items: center;
+		width: 300px;
+		padding-top: 0px;
+		height: 300px;
+
+		margin-top: 59px;
+	}
+
+	.contact-first-section-form {
+		align-items: center;
+		width: 230px;
+		padding: 5px 5px 5px 5px;
+		margin: 10px 0px;
+		margin-left: 200px;
+	}
+
+	.contact-first-section-input {
+		width: 100%;
+		height: 25px;
+
+		padding: 10px;
+		margin: 5px;
+	}
+
+	.contact-first-section-button {
+		width: 100%;
+		height: 25px;
+		background-color: #6aaa7d;
+		margin: 5px;
+		border: none;
+	}
+
+	//------contact second section ----------------------
+
+	.contact-second-section {
+		width: 300px;
+		height: 500px;
+		background: none;
+		padding-top: 0px;
+
+		margin-top: 120px;
+		margin-left: 200px;
+	}
+
+	.contact-end {
+		flex-direction: column;
+
+		padding-top: 20px;
+	}
+
+	.border {
+		border-top: 1px solid white;
+		border-bottom: 1px solid white;
+		border-left: none;
+		border-right: none;
+	}
+
+	.contact-icon {
+		width: 30px;
+		margin: 5px;
+	}
+
+	.contact-icon-container {
+		width: 200px;
+		height: 100px;
+	}
+
+	.contact-icon-container p {
+		font-size: 10px;
+		margin-top: 10px;
+	}
+
+	.contact-social-help-container {
+		padding: 10px;
+		bottom: 0;
+		margin-top: 20px;
+	}
+
+	.social-icons-contact {
+		gap: 10px;
+	}
+
+	.developed {
+		font-size: 12px;
+		padding: 10px 0px;
+	}
+	.contact-logo {
+		position: absolute;
+		top: 410px;
+		margin-left: 260px;
+
+		img {
+			max-width: 150px;
+		}
+	}
+
+	.social-icons-contact {
+		margin-left: 50px;
+	}
+
+	//Section title
+
+	.section-title {
+		padding: 5px 5px 5px calc(30px + 5vw);
+		width: max-content;
+		position: relative;
+		margin-bottom: 16px;
+		font-size: 14px;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-shadow: $shadow;
+	}
+
+	.underline {
+		position: absolute;
+		height: 8px;
+		right: 0;
+		left: 0;
+		background-image: linear-gradient(
+			-45deg,
+			rgba(217, 217, 217, 0.3) 50%,
+			rgba(255, 255, 255, 0.3) 50%
+		);
+	}
+
+	//products
+
+	.products-container {
+		margin-top: 20px;
+	}
+}
+
 @media screen and (min-width: 768px) {
 	nav.desktop {
 		display: flex;
@@ -43,8 +194,8 @@
 	}
 
 	// ABOUT US
-	.about-us{
-		grid-template-columns: 1.2fr .8fr;
+	.about-us {
+		grid-template-columns: 1.2fr 0.8fr;
 		padding: 3rem calc(30px + 5vw);
 		gap: 1rem 2.5rem;
 		align-items: center;
@@ -54,8 +205,8 @@
 				max-width: 300px;
 			}
 		}
-		
-		.owner{
+
+		.owner {
 			grid-area: 1 / 2 / 3 / 3;
 		}
 	}

@@ -39,8 +39,8 @@
 .contact-first-section-input{
     width: 100%;
     height: 50px;
-    background-color: #d9d9d9;
-    opacity: 31%;
+    background-color: rgba(217, 217, 217, 0.3);
+    
     padding: 10px;
     margin: 10px;
     box-shadow: $shadow;
@@ -48,7 +48,7 @@
   
 }
 
-.contact-first-section-input ::placeholder{
+.contact-first-section-input::placeholder {
    color: white;
 
 }
@@ -56,13 +56,21 @@
 .contact-first-section-textarea{
     width: 100%;
     height: 100px;
-    background-color: #d9d9d9;
-    opacity: 31%;
+    background-color: rgba(217, 217, 217, 0.3);
+ 
     padding: 30px 10px;
     margin: 10px;
     border: none;
     box-shadow: $shadow;
 }
+
+.contact-first-section-textarea::placeholder {
+    color: white;
+ 
+ }
+
+
+
 
 .contact-first-section-button{
     width: 100%;
@@ -71,16 +79,20 @@
     margin: 10px;
     border: none;
     box-shadow: $shadow;
+    color: white;
    
 }
 
+ 
+.contact-first-section-button::value {
+    color: white;
+ 
+ }
+
 .contact-second-section{
   
-   width: 100vw;
-  
-
+   width: 100%;
    height: 50%;
-
   background: linear-gradient(180deg, rgba(0,0,0,0) 10%, rgba(0,0,0,0.8) 90%); 
 padding-top: 200px;
 }
