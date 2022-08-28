@@ -1,7 +1,8 @@
 $carousel-height: 400px !default;
-$carousel-item-height: $carousel-height / 2 !default;
-$carousel-item-width: $carousel-item-height !default;
+$carousel-item-height: $carousel-height * .80 ;
+$carousel-item-width: $carousel-item-height * 4 / 5 ;
 
+// Estilos de MATERIALIZE
 .carousel {
 	&.carousel-slider {
 		top: 0;
@@ -74,7 +75,7 @@ $carousel-item-width: $carousel-item-height !default;
 		text-align: center;
 		left: 0;
 		right: 0;
-		bottom: 0;
+		bottom: -25px;
 		margin: 0;
 
 		.indicator-item {
@@ -101,3 +102,11 @@ $carousel-item-width: $carousel-item-height !default;
 	}
 }
 
+//Estilos propios
+.carousel-section{
+	padding: 3rem 1rem;
+	background: linear-gradient(to bottom, #000, rgba(14, 6, 65, .68));
+}
+.carousel{
+	margin: 4vw 0;
+}
