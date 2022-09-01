@@ -19,3 +19,7 @@
 	font-family: "Helvlight Regular";
 	src: local("./fonts/Helvlight Regular.ttf"), url("./fonts/Helvlight Regular.ttf") format("truetype");
 }
+
+html{
+	scroll-behavior: smooth;
+}

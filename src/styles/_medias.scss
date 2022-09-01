@@ -150,6 +150,15 @@
 }
 
 @media screen and (min-width: 768px) {
+	// Need Help component
+	.only-desktop{
+		display: block !important;
+	}
+	.need-help svg{
+		width: 64px;
+		height: 64px;
+	}
+
 	nav.desktop {
 		display: flex;
 		align-items: center;
