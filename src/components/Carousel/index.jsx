@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import M from "materialize-css";
 import one from "../../assets/img/hero-bg.jpg";
-import two from "../../assets/img/hero-bg.jpg"
-import three from "../../assets/img/hero-bg.jpg"
-import four from "../../assets/img/hero-bg.jpg"
-import five from "../../assets/img/hero-bg.jpg"
+import two from "../../assets/img/1.jpg"
+import three from "../../assets/img/2.jpg"
+import four from "../../assets/img/3.jpg"
+import five from "../../assets/img/4.jpg"
 
 function Carousel(){
 	const refCarousel = useRef(null)

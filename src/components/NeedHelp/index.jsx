@@ -21,7 +21,11 @@ export default function NeedHelp() {
 	return (
 		<button className={`${visible ? "visible" : ""} need-help`}>
 			<HelpIcon />
+<<<<<<< HEAD
 			<span>¿Necesitas ayuda?</span>
+=======
+			<span className="only-desktop">¿Necesitas ayuda?</span>
+>>>>>>> nico
 		</button>
 	)
 }

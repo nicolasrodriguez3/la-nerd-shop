@@ -13,10 +13,15 @@ export default function Header() {
 		setIsMenuOpen(!isMenuOpen)
 	}
 
+	const scrollToTop = () =>{
+		setIsMenuOpen(false)
+		return window.scrollTo(0,0)
+	}
+
 	return (
 		<div className="header-container">
 			<header className="header">
-				<Link to="/" className="header-logo">
+				<Link to="/" className="header-logo" onClick={scrollToTop}>
 					<img src={logo} alt="logo" />
 				</Link>
 				<form className="header-search">
@@ -31,7 +36,11 @@ export default function Header() {
 					</label>
 				</form>
 				<nav className="desktop">
+<<<<<<< HEAD
 					<Link to="/shop" className="active">
+=======
+					<Link to="/shop" className="active" onClick={scrollToTop}>
+>>>>>>> nico
 						SHOP
 					</Link>
 					<Link to="#">CONOCENOS</Link>
@@ -50,7 +59,11 @@ export default function Header() {
 				</div>
 			</header>
 			<nav className={`mobile-menu ${isMenuOpen ? "open" : ""}`}>
+<<<<<<< HEAD
 				<Link to="/shop" className="active">
+=======
+				<Link to="/shop" className="active" onClick={scrollToTop}>
+>>>>>>> nico
 					SHOP
 				</Link>
 				<Link to="#">CONOCENOS</Link>
