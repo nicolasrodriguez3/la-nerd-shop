@@ -36,11 +36,7 @@ export default function Header() {
 					</label>
 				</form>
 				<nav className="desktop">
-<<<<<<< HEAD
-					<Link to="/shop" className="active">
-=======
 					<Link to="/shop" className="active" onClick={scrollToTop}>
->>>>>>> nico
 						SHOP
 					</Link>
 					<Link to="#">CONOCENOS</Link>
@@ -59,11 +55,7 @@ export default function Header() {
 				</div>
 			</header>
 			<nav className={`mobile-menu ${isMenuOpen ? "open" : ""}`}>
-<<<<<<< HEAD
-				<Link to="/shop" className="active">
-=======
 				<Link to="/shop" className="active" onClick={scrollToTop}>
->>>>>>> nico
 					SHOP
 				</Link>
 				<Link to="#">CONOCENOS</Link>
