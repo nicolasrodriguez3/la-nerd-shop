@@ -1,19 +1,16 @@
+import AnimatedPage from "./AnimatedPage"
 import Carousel from "../components/Carousel"
 import Hero from "../components/Hero"
-import SectionTitle from "../components/SectionTitle"
 import Contact from "../components/Contact"
-import AboutUs from "../components/AboutUs";
+import AboutUs from "../components/AboutUs"
 
 export default function Home() {
 	return (
-		<div>
+		<AnimatedPage>
 			<Hero />
-			<section className="carousel-section">
-				<SectionTitle>NUESTRAS OFERTAS</SectionTitle>
-				<Carousel />
-			</section>
+			<Carousel />
 			<AboutUs />
 			<Contact />
-		</div>
-	);
+		</AnimatedPage>
+	)
 }

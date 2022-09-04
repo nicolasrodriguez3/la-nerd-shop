@@ -36,10 +36,10 @@ export default function Header() {
 					</label>
 				</form>
 				<nav className="desktop">
-					<Link to="/shop" className="active" onClick={scrollToTop}>
+					<Link to="/shop" className="active">
 						SHOP
 					</Link>
-					<Link to="#">CONOCENOS</Link>
+					<Link to="#about-us">CONOCENOS</Link>
 					<Link to="#contact">CONTACTO</Link>
 				</nav>
 				<div className="header-icons">
@@ -55,11 +55,11 @@ export default function Header() {
 				</div>
 			</header>
 			<nav className={`mobile-menu ${isMenuOpen ? "open" : ""}`}>
-				<Link to="/shop" className="active" onClick={scrollToTop}>
+				<Link to="/shop" className="active">
 					SHOP
 				</Link>
-				<Link to="#">CONOCENOS</Link>
-				<Link to="#">CONTACTO</Link>
+				<Link to="#about-us">CONOCENOS</Link>
+				<Link to="#contact">CONTACTO</Link>
 			</nav>
 		</div>
 	)
