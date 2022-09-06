@@ -15,7 +15,7 @@ export default function Header() {
 
 	const scrollToTop = () =>{
 		setIsMenuOpen(false)
-		return window.scrollTo(0,0)
+		window.scrollTo(0,0)
 	}
 
 	return (
@@ -39,8 +39,8 @@ export default function Header() {
 					<Link to="/shop" className="active" onClick={scrollToTop}>
 						SHOP
 					</Link>
-					<Link to="#">CONOCENOS</Link>
-					<Link to="#contact">CONTACTO</Link>
+					<Link to="/#about-us">CONOCENOS</Link>
+					<Link to="/#contact">CONTACTO</Link>
 				</nav>
 				<div className="header-icons">
 					<Link to="#">
@@ -58,8 +58,8 @@ export default function Header() {
 				<Link to="/shop" className="active" onClick={scrollToTop}>
 					SHOP
 				</Link>
-				<Link to="#">CONOCENOS</Link>
-				<Link to="#">CONTACTO</Link>
+				<Link to="/#about-us" onClick={()=>setIsMenuOpen(false)}>CONOCENOS</Link>
+				<Link to="/#contact" onClick={()=>setIsMenuOpen(false)}>CONTACTO</Link>
 			</nav>
 		</div>
 	)

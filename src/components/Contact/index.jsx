@@ -1,12 +1,10 @@
 import React from 'react'
 import SectionTitle from '../SectionTitle'
 import { Link } from "react-router-dom"
-import logo from "../../assets/img/logo-small.svg"
 import logoBig from "../../assets/img/logo-big.svg"
 import credit from "../../assets/img/el_credit-card.svg"
 import shipping from "../../assets/img/la_shipping-fast.svg"
 import security from "../../assets/img/ant-design_safety-certificate-outlined.svg"
-import { ReactComponent as HelpIcon } from "../../assets/img/online-support-icon.svg"
 import { socialNetworks } from "../../social-networks"
 
 function Contact() {

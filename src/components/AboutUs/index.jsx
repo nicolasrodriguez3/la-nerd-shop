@@ -5,7 +5,7 @@ import ownerImg from "../../assets/img/marcos.png"
 
 export default function AboutUs() {
 	return (
-		<section className="about-us-section">
+		<section className="about-us-section" id="about-us">
 			<div className="about-us-logos-bg"></div>
 			<div className="about-us-container">
 				<SectionTitle>CONÓCENOS</SectionTitle>
