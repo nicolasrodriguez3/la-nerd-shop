@@ -26,7 +26,7 @@ function Carousel() {
 	}, [])
 
 	return (
-		<section className="carousel-section">
+		<section className="carousel-section" id="carousel">
 			<SectionTitle>NUESTRAS OFERTAS</SectionTitle>
 
 			<div ref={refCarousel} className="carousel">
