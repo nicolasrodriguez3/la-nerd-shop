@@ -18,10 +18,11 @@ function Carousel() {
 		}
 
 		const instance = M.Carousel.init(refCarousel.current, options)
-    const nextSlide = setInterval(()=> instance.next() , 3000)
+    const nextSlide = setInterval(()=> instance.next(), 3000)
+		
 		return () => {
-			instance.destroy()
       clearInterval(nextSlide)
+			instance.destroy()
 		}
 	}, [])
 
