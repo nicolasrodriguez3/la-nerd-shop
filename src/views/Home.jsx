@@ -7,7 +7,7 @@ import AboutUs from "../components/AboutUs"
 export default function Home() {
 	return (
 		<AnimatedPage>
-			<Hero />
+		<Hero />
 			<Carousel />
 			<AboutUs />
 			<Contact />
