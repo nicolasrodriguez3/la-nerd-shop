@@ -10,7 +10,7 @@ import { socialNetworks } from "../../social-networks"
 function Contact() {
     return (
         <div className='contact-container' id="contact">
-            
+
             <section className='contact-first-section'>
                 <SectionTitle>ESTEMOS EN CONTACTO!</SectionTitle>
                 <form className='contact-first-section-form'>
@@ -43,11 +43,11 @@ function Contact() {
 
             <section className='contact-second-section' >
                 <Link to="/" className="contact-logo">
-                <div >
-                    <img src={logoBig} alt="logo" />
-                </div>
+                    <div >
+                        <img src={logoBig} alt="logo" />
+                    </div>
                 </Link>
-                
+
                 <div className='contact-end'>
                     <div className='contact-icon-container'>
                         <img src={credit} alt="tarjeta de crédito, ícono" className='contact-icon' />
@@ -70,7 +70,7 @@ function Contact() {
                             </a>
                         ))}
                     </div>
-                   
+
                 </div>
                 <p className='developed'>DESARROLLADO POR 'NICO & VALE' 😄</p>
 
@@ -80,10 +80,3 @@ function Contact() {
 }
 
 export default Contact
-
-/*
- <div className="need-help-contact">
-                        <HelpIcon />
-                        <span>¿Necesitas ayuda?</span>
-                    </div>
-                    */

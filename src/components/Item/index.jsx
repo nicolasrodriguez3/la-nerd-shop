@@ -2,7 +2,7 @@ import React from 'react'
 import { ReactComponent as CartIcon } from "../../assets/img/cart-icon.svg"
 
 
-function Item({ id, title, description, price, image, thumbnailOne, thumbnailTwo, thumbnailThree, thumbnailFour }) {
+function Item({ title, description, price, image, thumbnailOne, thumbnailTwo, thumbnailThree, thumbnailFour }) {
     return (
         <div className='card'>
             <img src={image} alt={title} className="card-img"/>
@@ -16,15 +16,11 @@ function Item({ id, title, description, price, image, thumbnailOne, thumbnailTwo
             <p>{description}</p>
             <div className='card-price-icon'>
                 <p>PRECIO: ${price}</p>
-                <div className='card-cart-container'>
-                    
+                <div className='card-cart-container'>                   
                 <CartIcon />
                 <div className='card-circle'><span className='card-circle-plus'>+</span></div>
                 </div>
-                
-
-            </div>
-           
+            </div>         
         </div>
     )
 }
