@@ -59,6 +59,7 @@
 
 		margin-top: 120px;
 		margin-left: 200px;
+		
 	}
 
 	.contact-end {
@@ -93,10 +94,17 @@
 		padding: 10px;
 		bottom: 0;
 		margin-top: 20px;
+		justify-content: center;
+		align-items: center;
+		
 	}
+
+
 
 	.social-icons-contact {
 		gap: 10px;
+		left:0;
+	
 	}
 
 	.developed {
@@ -113,10 +121,7 @@
 		}
 	}
 
-	.social-icons-contact {
-		margin-left: 50px;
-	}
-
+	
 	//Section title
 
 	.section-title {
