@@ -79,10 +79,7 @@ function Products() {
 				</div>
 
 				<ItemList items={items} />
-				<div className="need-help-products">
-					<HelpIcon />
-					<span>¿Necesitas ayuda?</span>
-				</div>
+				
 			</div>
 		</AnimatedPage>
 	)
