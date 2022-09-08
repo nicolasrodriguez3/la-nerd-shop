@@ -4,13 +4,17 @@
 	.social-icons-contact {
 		margin-left: 50px;
 	}
-
-	.products-container {
-		margin-top: 20px;
-	}
 }
 
 @media screen and (min-width: 768px) {
+	.products-container{
+		margin-top: 150px;
+ }
+ 
+ .productos-filter{
+		 margin-right: calc(30px + 5vw);
+ }
+
 	// Need Help component
 	.only-desktop {
 		display: block !important;
