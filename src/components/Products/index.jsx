@@ -3,7 +3,7 @@ import AnimatedPage from "../../views/AnimatedPage"
 import ItemList from "../ItemList"
 import SectionTitle from "../SectionTitle"
 import { ReactComponent as FilterIcon } from "../../assets/img/clarity_filter-2-line.svg"
-import { ReactComponent as HelpIcon } from "../../assets/img/online-support-icon.svg"
+
 
 function Products() {
 	let img = "https://cdn.pixabay.com/photo/2016/11/23/14/44/hands-1853302__340.jpg"
@@ -77,12 +77,7 @@ function Products() {
 						<p>Filtrar</p>
 					</div>
 				</div>
-
 				<ItemList items={items} />
-				<div className="need-help-products">
-					<HelpIcon />
-					<span>¿Necesitas ayuda?</span>
-				</div>
 			</div>
 		</AnimatedPage>
 	)
