@@ -7,7 +7,7 @@
 	background: url(../assets/img/contact-bg.jpg);
 	width: 100%;
 	position: relative;
-	background-position:  center top;
+	background-position: center top;
 	background-size: cover;
 }
 
@@ -26,7 +26,7 @@
 	align-items: flex-start;
 	padding: 1rem;
 	width: 100%;
-    max-width: 500px;
+	max-width: 500px;
 }
 
 .contact-first-section-input,
@@ -78,8 +78,8 @@
 .contact-end {
 	display: flex;
 	flex-direction: column;
-    align-items: center;
-    margin-bottom: 5vw;
+	align-items: center;
+	margin-bottom: 5vw;
 }
 
 .contact-icon {
@@ -111,13 +111,52 @@
 	align-items: center;
 	padding: 30px;
 	border-bottom: 1px solid white;
-    gap: 1rem;
+	gap: 1rem;
 
 	img {
 		filter: drop-shadow($shadow);
 	}
 }
-.developed{
-    padding: 1rem .1rem;
-    text-align: center;
+.developed {
+	padding: 1rem 0.1rem;
+	text-align: center;
+
+	a {
+		letter-spacing: 1px;
+		margin: 0 5px;
+		color: inherit;
+		font-weight: bold;
+		text-decoration: none;
+
+		background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, rgb(255, 255, 255) 50%);
+		background-size: 200% 100%;
+		background-position: -100%;
+		display: inline-block;
+		padding: 5px 0;
+		position: relative;
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		transition: all 0.3s ease-in-out;
+	}
+
+	a:before {
+		content: "";
+		background: #54b3d6;
+		display: block;
+		position: absolute;
+		bottom: -3px;
+		left: 0;
+		width: 0;
+		height: 3px;
+		transition: all 0.3s ease-in-out;
+	}
+
+	a:hover {
+		background-position: 0;
+	}
+
+	a:hover::before {
+		width: 100%;
+	}
 }

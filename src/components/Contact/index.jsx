@@ -51,7 +51,13 @@ function Contact() {
 						</a>
 					))}
 				</div>
-				<p className="developed">DESARROLLADO POR 'NICO & VALE' 😄</p>
+				<p className="developed">
+					DESARROLLADO POR
+					<a href="https://linktr.ee/desarrollo_LaNerdShop" target="_blank" rel="noreferrer">
+						*LINKTREE*
+					</a>
+					😄
+				</p>
 			</section>
 		</div>
 	)

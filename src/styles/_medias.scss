@@ -1,16 +1,19 @@
 @media screen and (max-width: 767px) {
-
 	//products
 	.social-icons-contact {
 		margin-left: 50px;
 	}
-
-	.products-container {
-		margin-top: 20px;
-	}
 }
 
 @media screen and (min-width: 768px) {
+	.products-container {
+		margin-top: 150px;
+	}
+
+	.productos-filter {
+		margin-right: calc(30px + 5vw);
+	}
+
 	// Need Help component
 	.only-desktop {
 		display: block !important;
@@ -67,7 +70,7 @@
 		display: none !important;
 	}
 
-	.carousel-section{
+	.carousel-section {
 		padding-top: 100px;
 	}
 	// ABOUT US
@@ -94,27 +97,27 @@
 		border-left: 1px solid white;
 		border-right: 1px solid white;
 	}
-	.contact-icon-container{
+	.contact-icon-container {
 		height: 250px;
 	}
 
-	.contact-container{
+	.contact-container {
 		padding-top: 100px;
 	}
-	.contact-first-section{
-    margin-left: calc(30px + 5vw);
+	.contact-first-section {
+		margin-left: calc(30px + 5vw);
 		align-items: flex-start;
 	}
 
-	.contact-logo img{
+	.contact-logo img {
 		margin-left: calc(30px + 5vw);
 	}
 
-	.contact-end{
+	.contact-end {
 		flex-direction: row;
 		justify-content: center;
 	}
-	.contact-social-help-container{
+	.contact-social-help-container {
 		justify-content: flex-start;
 		padding-left: calc(30px + 5vw);
 	}
